@@ -1,10 +1,7 @@
-# 📊 YouTube Data Analysis com PySpark
+#  YouTube Data Analysis com PySpark
 
-## 📖 Descrição
-Este projeto apresenta um fluxo de análise de dados de vídeos e comentários do YouTube utilizando **PySpark** no ambiente **Google Colab**.  
-O objetivo é demonstrar como manipular datasets em diferentes formatos (CSV e Parquet), explorar esquemas, criar tabelas no catálogo do Spark e realizar consultas com **Spark SQL**.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - Upload e leitura de arquivos CSV (`videos-stats.csv` e `comments.csv`)  
 - Visualização inicial dos dados e esquemas  
 - Inferência automática de tipos de dados  
@@ -13,13 +10,13 @@ O objetivo é demonstrar como manipular datasets em diferentes formatos (CSV e P
 - Consultas com **Spark SQL**  
 - Integração de múltiplos datasets para análise  
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 - Google Colab  
 - PySpark  
 - Spark SQL  
 - Formatos de dados: **CSV** e **Parquet**
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ├── videos-stats.csv
 ├── comments.csv
@@ -28,7 +25,7 @@ O objetivo é demonstrar como manipular datasets em diferentes formatos (CSV e P
 ├── README.md
 
 
-## 📌 Passos principais do notebook
+##  Passos principais do notebook
 1. Upload dos arquivos CSV para o Colab  
 2. Leitura dos dados sem e com inferência de esquema  
 3. Visualização dos registros e estrutura dos dados  
@@ -37,7 +34,7 @@ O objetivo é demonstrar como manipular datasets em diferentes formatos (CSV e P
 6. Execução de consultas SQL  
 7. Análise dos comentários (`comments.csv`)  
 
-## ▶️ Como executar
+##  Como executar
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/youtube-pyspark-analysis.git
@@ -48,7 +45,7 @@ O objetivo é demonstrar como manipular datasets em diferentes formatos (CSV e P
 
 4. Execute célula por célula para acompanhar o fluxo de análise.
 
-🎯 Objetivo
+ Objetivo
 Servir como exemplo prático e didático de manipulação de grandes volumes de dados com PySpark, explorando diferentes formatos de armazenamento e consultas SQL, aplicável a cenários de análise de dados em plataformas digitais como o YouTube.
 
 
